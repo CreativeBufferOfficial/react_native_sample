@@ -1,0 +1,74 @@
+# OSX
+#
+react_native_sample/.DS_Store
+
+# Xcode
+#
+!**/*.xcodeproj
+!**/*.pbxproj
+!**/*.xcworkspacedata
+!**/*.xcsettings
+!**/*.xcscheme
+!**/*.xcframework/**/*.dSYM
+
+
+react_native_sample/ios/build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.xcuserstate
+DerivedData
+
+
+
+project.xcworkspace
+
+
+# Android/IntelliJ
+#
+react_native_sample/android/build/
+react_native_sample/android/app/build/
+
+react_native_sample/android/.idea
+react_native_sample/android/.gradle/
+react_native_sample/android/local.properties
+react_native_sample/android/*.iml
+
+# node.js
+#
+react_native_sample/node_modules/
+react_native_sample/npm-debug.log
+react_native_sample/yarn-error.log
+
+# BUCK
+react_native_sample/buck-out/
+react_native_sample/\.buckd/
+react_native_sample/*.keystore
+react_native_sample/!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+react_native_sample/*/fastlane/report.xml
+react_native_sample/*/fastlane/Preview.html
+react_native_sample/*/fastlane/screenshots
+
+# Bundle artifact
+react_native_sample/*.jsbundle
+
+# CocoaPods
+react_native_sample/ios/Pods/
