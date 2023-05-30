@@ -6,7 +6,7 @@ import type {
 import {BottomTabNavigationProp} from '@react-navigation/bottom-tabs';
 
 export type HomeStackNavigatorParamList = {
-  Home: undefined;
+  Task: undefined;
   Details: {
     name: string;
     birthYear: string;
@@ -20,11 +20,11 @@ export type DetailsScreenRouteProp = RouteProp<
 
 export type BottomTabNavigatorParamList = {
   Home: HomeStackNavigatorParamList;
-  Feed: undefined;
+  History: undefined;
   Settings: undefined;
 };
 
 export type HomeScreenNavigationProp = CompositeNavigationProp<
   NativeStackNavigationProp<HomeStackNavigatorParamList, 'Details'>,
-  BottomTabNavigationProp<BottomTabNavigatorParamList, 'Feed'>
+  BottomTabNavigationProp<BottomTabNavigatorParamList, 'History'>
 >;
